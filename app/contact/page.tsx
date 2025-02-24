@@ -49,7 +49,7 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Contáctanos
+          Contáctame
         </motion.h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -59,7 +59,7 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <motion.img
-              src="/contact-img1.svg"
+              src="/2.gif"
               alt="Contacto"
               className="rounded-lg shadow-lg"
               initial={{ opacity: 0, scale: 0.9 }}
